@@ -17,8 +17,7 @@
   "scripts": {
     "start": "npm run test",
     "pretest": "webdriver-manager update",
-    "test": "protractor ./protractor-conf.js",
-    "precommit": "lint-staged"
+    "test": "protractor ./protractor-conf.js"
   },
   "dependencies": {
     "chromedriver": "^87.0.4",
