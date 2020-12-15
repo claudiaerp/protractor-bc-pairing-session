@@ -1,0 +1,29 @@
+{
+  "name": "protractor-bc-pairing-session",
+  "version": "0.0.0",
+  "description": "protractor-bc-pairing-session",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/claudiaerp/protractor-bc-pairing-session.git",
+    "type": "git"
+  },
+  "keywords": [
+    "protractor",
+    "page object pattern",
+    "end to end testing"
+  ],
+  "author": "Claudia Reyes",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run test",
+    "pretest": "webdriver-manager update",
+    "test": "protractor ./protractor-conf.js",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "chromedriver": "^87.0.4",
+    "jasmine-spec-reporter": "^6.0.0",
+    "protractor": "^7.0.0",
+    "webdriver-manager": "^12.1.7"
+  }
+}
